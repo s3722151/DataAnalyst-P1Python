@@ -1,0 +1,5 @@
+Journal
+This is a brief summary of what I did each day for this project.
+
+3/3/3035
+Created the plan and repository.
