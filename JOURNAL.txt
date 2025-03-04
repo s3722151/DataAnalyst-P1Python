@@ -3,3 +3,6 @@ This is a brief summary of what I did each day for this project.
 
 3/3/3035
 Created the plan and repository.
+
+4/3/2025
+Proceeded with plan to create the Hello World file. 
