@@ -6,3 +6,8 @@ Created the plan and repository.
 
 4/3/2025
 Proceeded with plan to create the Hello World file. 
+
+5/3/2025
+Created a few exercise files. 
+Played around with variables. loops. conditions and lists.
+
