@@ -11,3 +11,6 @@ Proceeded with plan to create the Hello World file.
 Created a few exercise files. 
 Played around with variables. loops. conditions and lists.
 
+6/3/2025
+Created a function.
+Tried to use Pandas but realised I need to look at installing Jupytar Notebook
