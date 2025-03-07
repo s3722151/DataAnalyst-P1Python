@@ -14,3 +14,16 @@ Played around with variables. loops. conditions and lists.
 6/3/2025
 Created a function.
 Tried to use Pandas but realised I need to look at installing Jupytar Notebook
+
+7/3/2025
+Attempting to install Jupytar Notebook and look at a tutorial how to use.
+https://www.youtube.com/watch?v=2WL-XTl2QYI
+Turns out I need to install Anaconda to run it:
+https://www.anaconda.com/download/success
+To use Jupytar Notebook
+A. Use anaconda command prompt "jupyter notebook"
+- This opens all the files on a browser
+B. Use Anaconda navigator
+In jupytar notebook, crete a folder by clicking in directory new then python3
+- Make sure to shut down terminal when finished
+Also re-worked the project plan.
