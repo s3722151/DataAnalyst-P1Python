@@ -27,3 +27,8 @@ B. Use Anaconda navigator
 In jupytar notebook, crete a folder by clicking in directory new then python3
 - Make sure to shut down terminal when finished
 Also re-worked the project plan.
+
+8/3/2025
+Crete an array file and played around with a dataframe.
+- This was also done on JUpter NOtebook
+Also learnt how to read from a CSV file. 
