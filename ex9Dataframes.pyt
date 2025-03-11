@@ -36,6 +36,12 @@ df.style \
   .format_index(str.upper, axis=1) \
   .relabel_index(["row 1", "row 2"], axis=0)
 
+
+
+
+#Video 1: Create Dataframe & Read from Web
+# https://www.youtube.com/watch?v=TKj0mjmSVgQ&t=1sv
+
 #Return the shape of a file: https://youtu.be/TKj0mjmSVgQ?t=631
 # (Rows, Columns)
 dfNetflix.shape
@@ -47,7 +53,13 @@ dfNetflix.head()
 # Return the last 5 rows 
 dfNetflix.tail()
 
-# Get a specific column
+
+
+
+#Video 2: https://www.youtube.com/watch?v=VIa1ETYnFuc
+# iloc loc isin Pandas Function
+
+# Get a specific column to be a index
 dfNetflix.set_index("director")
 
 # To set an index manually 
@@ -95,3 +107,51 @@ dfNetflix [ (dfNetflix['release_year']>2020) | (dfNetflix['type'] == "TV Show") 
 #OR conditions in the same column category 
 # This provides easier syntax
 dfNetflix [ dfNetflix['director'].isin(['Julien Leclercq', 'Mike Flanagan']) ]
+
+
+
+
+
+#Video 3: Describe, Info, isnull, Len Functions
+# https://www.youtube.com/watch?v=yq9Art2Yu54
+
+#Info shows infor about the distribution about data
+# So the different data types and frequency
+dfNetflix.info()
+
+dfNetflix.describe()
+#To get statistics for all columns
+# For each column it will give the count, mean and standard deviation 
+# More useful for numerical columns
+
+#To get statistics from 1 column 
+# This would be more helpful getting data with numerical columns
+dfNetflix['release_year'].describe()
+
+dfNetflix['release_year'].value_counts()
+#This counts all categories and frequency they appear in 
+
+#To get average
+dfNetflix['release_year'].mean()
+
+#To get average for a specific column 
+# Here we look we find the average release year for TV shows
+dfNetflix['release_year'].loc[dfNetflix['type'] == 'TV Show'].mean()
+
+#List all unique caretgories belonging to 1 column
+dfNetflix['director'].unique().tolist()
+
+#This will store a search value
+unique_Directors = dfNetflix['director'].unique().tolist()
+
+#To show all columns
+dfNetflix.columns
+
+#Check if anything is null and sum them 
+dfNetflix.isnull().sum()
+
+#How long is a dataset
+len(dfNetflix)
+
+#This finds the percentage of values that are null for a column
+dfNetflix['director'].isnull().sum()/len(dfNetflix)

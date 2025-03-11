@@ -41,4 +41,10 @@ https://www.youtube.com/watch?v=TKj0mjmSVgQ
 https://www.youtube.com/watch?v=VIa1ETYnFuc
 - Get the ranges, index 
 
-TO DO NEXT - Follow up reading NUMPY documentation and tutorials
+11/3/2025
+Followed this tutorial.
+Learnt how to Describe, Info, isnull, Len.
+
+TO DO NEXT
+Follow up reading NUMPY documentation
+How to clean null values: https://www.w3schools.com/python/pandas/pandas_cleaning.asp
