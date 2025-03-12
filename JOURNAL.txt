@@ -45,6 +45,11 @@ https://www.youtube.com/watch?v=VIa1ETYnFuc
 Followed this tutorial.
 Learnt how to Describe, Info, isnull, Len.
 
+12/3/2025
+Updated guide, Read what Numpy is.
+
 TO DO NEXT
-Follow up reading NUMPY documentation
+Follow up reading NUMPY documentation: https://www.w3schools.com/python/numpy/numpy_getting_started.asp
+- Just do the exercises
 How to clean null values: https://www.w3schools.com/python/pandas/pandas_cleaning.asp
+- Just do this then try to do it for netflix
