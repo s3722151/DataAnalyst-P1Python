@@ -57,7 +57,7 @@ https://www.w3schools.com/python/pandas/pandas_cleaning_empty_cells.asp
 Looking at data that is blank
 - Type of show: No blanks, so columns are fine 
 - Title: 2 rows are written as dates so can remove. 
-- Director: Lof of blanks so I cannot remove the row, should substitute as uncredited
+- Director: Lof of blanks so I cannot remove the row. Also it is possible that aa director can be uncredited.
 - Cast: A lot of blanks 
 - Date: 1 blank Tv show remove, 3 dates formatted wrong and can correct
 - Release: Data column is fine 
@@ -67,6 +67,21 @@ Looking at data that is blank
 - Description is fine. Even if it was blank it wouuldn't be needed to removed.
 Made the determination that mean, median and mode don't need to be used here
 Need to check if there is duplicated values in based on title.
+
+16/3/2025
+Just going to clean data in a notebook.
+Look at data and there is correction in previous notes:
+- Type of show: No blanks, so columns are fine 
+- Title: This is fine
+- Director: Lof of blanks so I cannot remove the row. Also it is possible that aa director can be uncredited for a TV show but not a movie.
+- Cast: A lot of blanks 
+- Date: 1 blank Tv show remove, 3 dates formatted wrong and can correct
+- Release: Data column is fine 
+- Rating: 1 blank rating remove
+- Duration: Data is fine as in minutes. 
+- Listed_in is fine 
+
+
 
 TO DO NEXT
 Follow up reading NUMPY documentation: https://www.w3schools.com/python/numpy/numpy_getting_started.asp
