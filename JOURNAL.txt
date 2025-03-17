@@ -81,6 +81,10 @@ Look at data and there is correction in previous notes:
 - Duration: Data is fine as in minutes. 
 - Listed_in is fine 
 
+17/3/2025
+Just updated the notebooks
+-Learnt more about numpy.
+-Also updated removing titles that had dates.
 
 
 TO DO NEXT
